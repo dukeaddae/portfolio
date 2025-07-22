@@ -22,7 +22,7 @@ h1, h2, h3 {
 
 p {
     margin: 10px, 0;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* Utility Classes */
@@ -34,7 +34,8 @@ p {
 }
 
 .text-primary {
-    color: #2008c1;
+    color: #2509db;
+    font-size: 35px;
 }
 
 .btn {
@@ -42,18 +43,18 @@ p {
     font-size: 20px;
     color: #070464;
     background: #04ece8;
-    padding: 13px, 20px;
+    padding: 20px, 20px;
     border: none;
     cursor: pointer;
 }
 
 .btn:hover {
-    background: #a7cf04;
+    background: #444;
     color: #000000;
 }
 
 .btn-light {
-    background: #05a9f5;
+    background: #04ece8;
     color: #000000;
 }
 
@@ -67,7 +68,7 @@ p {
 }
 
 .l-heading {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1.2;
 }
 
@@ -102,7 +103,7 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current {
     background: #444;
-    color: #f7c08a;
+    color: #05a9f5;
 }
 
 /* Home Info */ 
@@ -116,21 +117,21 @@ p {
     width: 300px;
     height: 300px;
     float: left;
-    margin-right: 10px;
-    border-radius: 50%;
+    margin-right: 70px;
+    border-radius: 30%;
     padding-bottom: 50px;
 }
 
 #home-info .info-content {
     float: right;
-    height: 50%;
+    height: 100%;
     text-align: right;
     padding: 50px, 80px;
     overflow: hidden;
     padding-top: 150px;
 }
 #home-info .home-text{
-    margin-right: 450px;
+    margin-right: 500px;
 }
 #home-info .info-content p {
     padding-bottom: 30px;
@@ -147,13 +148,13 @@ p {
 /* Contact Info */
 
 #contact-info .phone-image {
-    width: 10%;
+    width: 5%;
 }
 #contact-info .mail-image {
-    width: 10%;
+    width: 5%;
 }
 #contact-info .instuMail-image {
-    width: 10%;
+    width: 5%;
 }
 
 #contact-info {
@@ -161,7 +162,7 @@ p {
     width: 100%;
     padding: 10px;
     display: block;
-    border: 1px #ddd solid;
+    border: 2px #ddd solid;
     outline: 200px;
 }
 
